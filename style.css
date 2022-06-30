@@ -1,0 +1,100 @@
+body {
+  background-color: #fcbf49;
+  font-family:  'Quicksand', sans-serif;
+}
+
+h1 {
+  color: black;
+  font-family: 'Bungee Outline', cursive;
+  font-size: 60px;
+  text-decoration: solid;
+  text-decoration: underline;
+  /* position: relative; */
+  top: 2.5%;
+  left: 10%;
+  text-align: center;
+}
+
+h2 {
+  color: #bc6e0a;
+  font-size: 30px;
+  text-decoration: solid;
+  /* position: relative; */
+  top: 2.5%;
+  left: 17%;
+  text-align: center;
+}
+
+.joke-focus {
+  color: black;
+  font-size: 40px;
+  width: 50%;
+}
+
+/* buttons */
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.like-button, .dislike-button {
+  /* position: relative; */
+  background-color: transparent;
+  border-width: 0cm;
+  top: 50%;
+  left: 10%;
+}
+
+.dislike-button {
+  /* position: relative; */
+  background-color: transparent;
+  border-width: 0cm;
+  top: 25%;
+  left: 25%;
+}
+
+.image-emoji {
+  height: 250px;
+  width: 250px;
+}
+/* 
+.new-joke-button {
+  color: rgb(255, 255, 255);
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  border-width: 2cm;
+  border-radius: 50%;
+  font-size: 30px;
+  text-decoration: solid; */
+/* position: relative; */
+/* top: 2.5%;
+        left: 30%; }*/
+
+.list-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.list-style {
+  border: solid black 1px;
+  background-color: #eae2b7;
+  font-size: 25px;
+  width: 40%;
+}
+
+.list-style > h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+.list-style > ul {
+  margin-bottom: 10px;
+}
+
+/* .dislike-list {
+  font-family: 'Courier New', Courier, monospace;
+  border:solid, black, 1px;
+  font-size: 25px;
+  width:40%; */
